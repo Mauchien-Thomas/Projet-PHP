@@ -1,0 +1,85 @@
+body{
+  font-family: Arial;
+  background-color: gainsboro;
+  margin: 0;
+  padding: 0;
+  margin-top : 100px;
+  margin-left: 50px;
+  margin-right: 50px;
+  text-align: center;
+}
+
+body form nav {
+
+  width: 100%;
+  background-color: grey;
+  position:fixed;
+  padding: 5px 0;
+  box-shadow:0 8px 18px 0 rgba(0, 0, 0, 0.5);
+  top: 0;
+  text-align : center;
+  left: 0;
+}
+body p {
+
+  font-size : 20px;
+  text-align:justify;
+}
+
+div ul li a:hover{
+  color: white;
+  border-bottom: 2px solid white;
+  transition: 0.5s;
+}
+body form nav div.logo a img{
+  width: 50px;
+  float : left;
+  margin-left : 20px;
+}
+div.menu ul li {
+  display: inline-block;
+  margin-right: 50px;
+
+}
+div.menu ul li a{
+  font-variant: small-caps;
+  text-decoration: none;
+  font-size: 1em;
+  color: white;
+
+}
+body form label {
+
+  display: inline-block;
+  width: 200px;
+  text-align: right;
+}
+
+select label option{
+  text-align: center;
+}
+body table.tableau
+{
+  border: 1px solid white;
+  background-color: #d8daef;
+  width: 500px;
+  margin: auto;
+  text-align: center;
+  color:black;
+}
+body form input  {
+  border: 1px solid grey;
+  padding:6px 10px 6px 10px;
+  border-radius:2px;
+  box-shadow:2px 2px 5px #aaa;
+  background:white;
+  font:bold 13px Arial;
+  color:#555;
+  cursor:pointer;
+}
+body article h2{
+text-decoration:underline;
+}
+body h2{
+  text-decoration: underline;
+}
